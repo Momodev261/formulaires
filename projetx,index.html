@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>office national du tourisme de guinée</title> ^
-    <link rel="stylesheet" href="projetX,style.css" />
+    <link rel="stylesheet" href="projetX_style.css" />
  </head>
  <body>
     <header>
+      <div class="logo-container">
+      <img src="Logo_ONT.jpg" alt="logo office national du tourisme de Guinée" class="logo-principal">
+      <div class="reseaux-header">
+         <a href="https://www.facebook.com/ONTGuinee/?locale=fr_FR" target="_blank">
+            <img src="logo facebook 3.jpg" alt="facebook" class="logo-reseau">
+         </a>
+         <a href="https://www.instagram.com/ontguinee/?hl=fr" target="_blank">
+            <img src="logo insta 2.jpg" alt="instagram" class="logo-reseau">
+         </a>
+      </div>
+      </div>
         <h1>Bienvenue en Guinée</h1>
-        <nav>
+        <nav> 
+         <form action="#" method="get" style="margin-top: 15px;">
+            <input type="text" name="q" placeholder="rechercher une destination..." style="padding:5px;">
+            <button type="submit" style="padding:5px;">Rechercher</button>
+         </form>
           <ul>
              <li><a href="#accueil">Accueil</a></li>
              <li><a href="#destinations">Destinations</a></li>
@@ -34,6 +49,47 @@
             <p>Une aventure unique au coeur de la biodiversité guinéenne.</p>
          </article>
        </section>
+       <section id="top-destinations">
+            <h2>top destination en Guinée</h2>
+            <div class="destinations-grid">
+               <a href="#lacminier" class="destination-card">
+                  <img src="lacminier.jpg" alt="lac minier de l’île de Kassa">
+                  <img src="dame du mali1.jpg" alt="dame du mali l(lélouma)">
+                  <h3>Lac Minier de l’île de Kassa</h3>
+               </a>
+            </div>
+         </section>
+       <section id="galerie">
+         <h2>Galerie photos</h2>
+         <div class="galerie-photos">
+         <img src="CASCADE.jpg" alt="la cascade de Saala" class="galerie-img" />
+         <img src="palais mohamed V.jpg" alt="palais mohamed V" class="galerie-img" />
+         <img src="djinkan.jpg" alt="Echelles de djinkan" class="galerie-img" />
+         <img src="pont de liane macenta.jpg" alt="pont de liane macenta" class="galerie-img" />
+         <img src="grottes de cireyah.jpg" alt="grottes de cireyah" class="galerie-img" />
+         </div> 
+       </section>
+       <section id="carte">
+         <h2>carte de la Guinée</h2>
+         <img src="carte de la guinée.jpg" alt="carte de la Guinée" class="carte-img">
+         <h3>carte interactive</h3> 
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126427.3122093405!2d-13.749999999999998!3d9.509167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzAnMzMuMCJOIDEzwrA0NScwMC4wIlc!5e0!3m2!1sfr!2sfr!4v1717000000000!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </section>
+       <section id="actualites">
+         <h2>Actualités & évènements</h2>
+         <article>
+            <h3>festival des arts et du rire</h3>
+            <p>du 20 au 24 mai 2025, decouvrer la culture guinéenne à travers le rire et expositions </p>
+         </article>
+         <section id="infos-pratiques">
+            <h2>informations Pratiques</h2>
+            <ul>
+               <li>Visa : obligatoire pour certaines nationalités</li>
+               <li>Monnaie : Franc guinéen (GNF)</li>
+               <li>Météo : Saison seche de novembre à avril</li>
+            </ul>
+         </section>
+       </section>
        <section id="services">
         <h2>Nos Services</h2>
         <ul>
@@ -41,6 +97,25 @@
          <li>informations sur les hébergements</li>
          <li>conseils personnalisés pour vos sejour</li>
        </ul>
+       </section>
+       <section id="newsletter">
+         <h2>inscrivez-vous à notre newsletter</h2>
+         <form>
+            <input type="email" placeholder="votre email" required>
+            <button type="submit">S'abonner</button>
+         </form>
+       </section>
+       </section>
+       <section id="temoignages">
+         <h2>temoignages de visiteurs</h2>
+         <blockquote>
+            <p>"un voyage inoubliable ! Les paysages de Guinée sont magnifiques."</p>
+            <footer>- Aïssatou, France</footer>
+         </blockquote>
+         <blockquote>
+            <p>"j'ai adoré la culture et riche et l'accueil chaleureux des habitants.</p>
+            <footer>- Mamadou, Sénégal</footer>
+         </blockquote>
        </section>
        <section id="contact">
          <h2>contactez-nous</h2>
@@ -55,9 +130,48 @@
          </form>
        </section>
       </main>
+      <section id="partenaires">
+         <h2>Nos Partenaires</h2>
+         <div class="logos-partenaires">
+            <img src="nawaari.jpg" alt="nawaari" class="logo-partenaire">
+            <img src="simplon guinee.jpg" alt="simplon Guinée" class="logo-partenaire">
+            <img src="logo-noom-conakry011.webp" alt="noom conakry" class="logo-partenaire">
+            <img src="tic tac driv.png" alt="tic tac driv" class="logo-partenaire">
+         </div>
+         <div class="partenaires-info">
+            <h3>Pourquoi nous faire confiance ?</h3>
+            <ul>
+               <li>+10 ans d'expérience dans le tourisme en Guinée</li>
+               <li>partenaire certifiés et reconnus</li>
+               <li>Accompagnement personnalisé</li>
+               <li>Respect des normes de sécurité</li>
+               </ul>
+               <a href="#contact" class="btn-action">Devenir partenaire</a>
+         </div>
+      </section>
+      <section id="faq">
+         <h2>FAQ - Questions fréquentes</h2>
+         <details>
+            <summary>Faut-il un visa pour visiter la Guinée ?</summary>
+            <p>Oui, un visa est nécessaire pour certaines nationalités.</p>
+         </details>
+         <details>
+            <summary>Quelle est la meilleure période pour visiter la Guinée ?</summary>
+            <p>La saison sèche, de novembre à avril, est idéale pour visiter la Guinée.</p>
+         </details>
+      </section>
 <footer>
-   <p>&copy; 2025 Office national du tourisme de Guinée tout droits reserverS</p>
+   <div style="margin-top: 15px;"> 
+      <a href="https://www.facebook.com/ONTGuinee/?locale=fr_FR" target="_blank">
+         <img src="logo facebook 3.jpg" alt="facebook" style="height:30px;">
+      </a>
+      <a href="https://www.instagram.com/ontguinee/?hl=fr" target="_blank">
+         <img src="logo insta 2.jpg" alt="instagram" style="height:30px;">
+      </a>
+      <p>Office national du tourisme de Guinée &copy; All Rights Reserved. 2025</p>
+   </div>
 </footer>
+<a href="#top" class="btn-top">↑ Retour en haut</a>
  </body>
 </html>
   
